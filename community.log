@@ -1,0 +1,18 @@
+2022-02-11 23:56:27.485  INFO 21828 --- [main] com.cyl.LoggerTests                      : Starting LoggerTests using Java 1.8.0_121 on LAPTOP-J5PCU9II with PID 21828 (started by 程艳玲 in D:\workplace\IDEA\projects\community)
+2022-02-11 23:56:27.485 DEBUG 21828 --- [main] com.cyl.LoggerTests                      : Running with Spring Boot v2.5.7, Spring v5.3.13
+2022-02-11 23:56:27.485  INFO 21828 --- [main] com.cyl.LoggerTests                      : The following profiles are active: @profileActive@
+2022-02-11 23:56:29.547  INFO 21828 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-02-11 23:56:29.844  INFO 21828 --- [main] com.cyl.LoggerTests                      : Started LoggerTests in 2.733 seconds (JVM running for 4.486)
+2022-02-11 23:56:30.032 DEBUG 21828 --- [main] com.cyl.LoggerTests                      : debug log
+2022-02-11 23:56:30.032  INFO 21828 --- [main] com.cyl.LoggerTests                      : info log
+2022-02-11 23:56:30.032  WARN 21828 --- [main] com.cyl.LoggerTests                      : warn log
+2022-02-11 23:56:30.032 ERROR 21828 --- [main] com.cyl.LoggerTests                      : error log
+2022-02-11 23:57:43.390  INFO 17828 --- [main] com.cyl.LoggerTests                      : Starting LoggerTests using Java 1.8.0_121 on LAPTOP-J5PCU9II with PID 17828 (started by 程艳玲 in D:\workplace\IDEA\projects\community)
+2022-02-11 23:57:43.390 DEBUG 17828 --- [main] com.cyl.LoggerTests                      : Running with Spring Boot v2.5.7, Spring v5.3.13
+2022-02-11 23:57:43.390  INFO 17828 --- [main] com.cyl.LoggerTests                      : The following profiles are active: @profileActive@
+2022-02-11 23:57:46.872  INFO 17828 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-02-11 23:57:47.450  INFO 17828 --- [main] com.cyl.LoggerTests                      : Started LoggerTests in 4.451 seconds (JVM running for 5.405)
+2022-02-11 23:57:47.812 DEBUG 17828 --- [main] com.cyl.LoggerTests                      : debug log
+2022-02-11 23:57:47.812  INFO 17828 --- [main] com.cyl.LoggerTests                      : info log
+2022-02-11 23:57:47.812  WARN 17828 --- [main] com.cyl.LoggerTests                      : warn log
+2022-02-11 23:57:47.812 ERROR 17828 --- [main] com.cyl.LoggerTests                      : error log
