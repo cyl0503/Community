@@ -4,11 +4,13 @@
 <mapper namespace="com.cyl.dao.UserMapper">
 
   <sql id="selectFields">
-    id,username,password,salt,email,type,status,activation_code,header_url,create_time
+    id
+    ,username,password,salt,email,type,status,activation_code,header_url,create_time
   </sql>
 
   <sql id="insertFields">
-    username,password,salt,email,type,status,activation_code,header_url,create_time
+    username
+    ,password,salt,email,type,status,activation_code,header_url,create_time
   </sql>
 
   <insert id="insertUser" parameterType="com.cyl.entity.User" keyProperty="id">

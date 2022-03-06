@@ -4,6 +4,9 @@ import lombok.Data;
 
 import java.util.Date;
 
+/**
+ * @Author CYL
+ */
 @Data
 public class User {
   private int id;

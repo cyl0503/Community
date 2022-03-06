@@ -1,17 +1,29 @@
 package com.cyl.utils;
 
-/*
+/**
 * 封装分页相关信息
 *
-* */
+*/
 public class Page {
-  //当前页码
+
+  /**
+   * 当前页码
+   */
   private int current = 1;
-  //显示上限
+
+  /**
+   * 显示上限
+   */
   private int limit = 10;
-  //数据总数(用于计算总页数)
+
+  /**
+   * 数据总数(用于计算总页数)
+   */
   private int rows;
-  //查询路径(用于复用分页链接)
+
+  /**
+   * 查询路径(用于复用分页链接)
+   */
   private String path;
 
   public int getCurrent() {
@@ -52,13 +64,21 @@ public class Page {
     this.path = path;
   }
 
-  //获取当前页的起始行
+  /**
+   * 获取当前页的起始行
+   *
+   * @return
+   */
   public int getOffset(){
     //current * limit -limit;
     return (current -1) * limit;
   }
 
-  //获取总的页数
+  /**
+   * 获取总的页数
+   *
+   * @return
+   */
   public int getTotal(){
     if(rows % limit == 0){
       return rows / limit;
